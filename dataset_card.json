@@ -1,0 +1,17 @@
+{
+    "tags": ["law", "legal", "India", "NLP", "question-answering", "fine-tuning", "dataset"],
+    "license": "cc-by-sa-4.0",
+    "datasets": {
+      "original_dataset": "akshatgupta7/llm-fine-tuning-dataset-of-indian-legal-texts"
+    },
+    "language": ["en"],
+    "task_categories": ["text-generation", "text-classification", "question-answering"],
+    "pretty_name": "Indian Legal QA Dataset",
+    "dataset_info": {
+      "author": "Akshat Gupta",
+      "maintainer": "Techmaestro369 (techmaestro369@gmail.com)",
+      "source": "https://www.kaggle.com/datasets/akshatgupta7/llm-fine-tuning-dataset-of-indian-legal-texts",
+      "description": "This dataset comprises curated question-answer pairs derived from Indian law, including IPC, CRPC, and the Indian Constitution. It is intended for fine-tuning LLMs for Indian legal applications."
+    }
+  }
+  
