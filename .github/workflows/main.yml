@@ -2,8 +2,8 @@ name: Sync HF Dataset to GitHub
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Runs daily at midnight UTC
-  workflow_dispatch:  # Allows manual trigger
+    - cron: '0 0 * * *'
+  workflow_dispatch:
 
 jobs:
   sync:
@@ -14,7 +14,7 @@ jobs:
 
       - name: Download Dataset from Hugging Face
         run: |
-          git clone https://huggingface.co/datasets/YOUR_HF_USERNAME/indian-legal-texts-finetuning hf-dataset
+          git clone https://huggingface.co/datasets/Techmaestro369/indian-legal-texts-finetuning hf-dataset
           cp -r hf-dataset/* ./
 
       - name: Commit and Push Changes
